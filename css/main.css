@@ -1922,7 +1922,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 100;
   line-height: 77px !important;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
   @media (max-width: 768px) {
     .banner-content h1 {
       font-size: 35px;
@@ -1934,12 +1934,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 900px; }
 
 .header-btn {
-  border: 1px solid transparent;
-  background-color: #3face4; }
-  .header-btn:hover {
     border: 1px solid #fff;
     background: transparent;
     color: #fff; }
+  .header-btn:hover {
+  border: 1px solid transparent;
+  background-color: #A2B0A5; }
 
 .banner-img {
   text-align: right; }
