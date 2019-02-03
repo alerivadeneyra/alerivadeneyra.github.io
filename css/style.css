@@ -29,7 +29,7 @@ html {
 /* Typography
 ------------------------------------- */
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h6 {
   font-weight: 400;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
@@ -55,6 +55,11 @@ h3 {
 h5 {
   font-weight: 400;
   letter-spacing: 1px;
+}
+
+h6 {
+  color: #000;
+  font-size: 1rem;
 }
 
 p {
@@ -600,6 +605,23 @@ a.icon {
   letter-spacing: 2px;
   margin-top: 20px;
 }
+
+#about .about-thumb .btn {
+  border-radius: 0px;
+  padding: 10px 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 22px;
+  transition: all 0.4s ease-in-out;
+}
+
+#about .about-thumb .btn:hover {
+  background: #111112;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+
 
 /* blog & single post section styles
 /* ========================================== */
