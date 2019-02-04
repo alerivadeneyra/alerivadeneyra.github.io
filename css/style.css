@@ -73,6 +73,7 @@ p {
 a {
   outline: none;
   text-decoration: none;
+ 
 }
 a,
 a:hover,
@@ -430,6 +431,15 @@ a.icon {
   padding-top: 120px !important;
 }
 
+.header1, .header2
+.header3, .header4,
+.header5, .header6,
+.header7, {
+  height: 30vh !important;
+  min-height: 320px;
+  padding-top: 120px !important;
+}
+
 .header-one {
   background: url('../images/header-bg.jpg') no-repeat;
   height: 60vh !important;
@@ -448,7 +458,27 @@ a.icon {
 .header-five {
   background: url('../images/header-five-bg.jpg') no-repeat;
 }
-
+.header1 {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+}
+.header2 {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+}
+.header3 {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+}
+.header4 {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+}
+.header5 {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+}
+.header6 {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+}
+.header7 {
+  background: url('../images/header-five-bg.jpg') no-repeat;
+}
 /* Portfolio section styles
 /* ========================================== */
 #portfolio {
