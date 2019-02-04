@@ -70,7 +70,7 @@ p {
   letter-spacing: 1px;
 }
 
-a {
+a,ul {
   outline: none;
   text-decoration: none;
  
@@ -93,9 +93,10 @@ img {
   max-width: 100%;
 }
 
-
 /* preloader styles
 /* ========================================== */
+
+
 .preloader {
     position: fixed;
     top: 0;
